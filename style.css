@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    line-height: 70px;
+    float: left;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px #8888;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .logo{
+    color: green;
+    font-size: 35px;
+    line-height: 100px;
+    float: left;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+}
+
+h1 {
+    color: green;
+}
+span{
+    color: blue;
+}
+
+#zona1{
+    padding: 25px;
+    text-align: right;
+}
+
+#zona1_1 {
+    padding: 50px;
+    text-align: center;
+}
+
+.boton_1{
+    background-color: rgb(149, 214, 51);   
+    border: none;
+    padding: 10px 28px;
+    color: #fff;
+    box-shadow: 2px 2px 2px #8888;
+    margin-right: 10px; 
+    border-radius: 15px;
+}
+
+.boton_2{
+    background-color: #fff;   
+    box-shadow: 5px 5px 5px #8888;
+    border: none;
+    padding: 10px;
+    color: rgb(94, 94, 255);
+    margin-right: 10px; 
+    border-radius: 15px;
+}
+
+.boton_3{
+    background-color: #fff;   
+    box-shadow: 5px 5px 5px #8888;
+    border: none;
+    padding: 10px;
+    color: rgb(94, 94, 255);
+    margin-right: 10px; 
+    border-radius: 15px; 
+}
+
+.boton_1_1{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.boton_1:hover{
+    background-color: #ebebeb;
+}
+
+.boton_2:hover {
+    background-color: rgb(206, 206, 255);
+}
+
+.zona2{
+    padding: 50px;
+    text-align: left;
+}
+
+.zona3{
+    padding: 50px;
+    text-align: right;
+}
+
+.zona4{
+    padding: 50px;
+    text-align: left;
+}
+
+.zona5{
+    padding: 50px;
+    text-align: right;
+    background-color: rgb(181, 181, 255);
+
+}
+
+.zona6{
+    padding: 50px;
+    text-align: center;
+    background-color: blue;
+}
+
+.zona7{
+    padding: 50px;
+    text-align: right;
+}
+
+.zona8{
+    padding: 50px;
+    text-align: left;
+}
+
+.zona9{
+    padding: 50px;
+    text-align: right;
+}
+
+.zona10{
+    padding: 50px;
+    text-align: left;
+}
+
+.zona11{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.pie1{
+    padding: 50px;
+    color: grey;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: col;
+}
+
+.pie2{
+    padding: 50px;
+    background-color: greenyellow;
+}
+
+.pie2 p{
+    color: grey;
+    word-spacing: 30px;
+}
+
+.titulo_pie{
+    color: #fff;
+}
