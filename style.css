@@ -3,6 +3,25 @@
     margin: 0;
 }
 
+@media (min-width: 520px) {
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+
+    }
+}
 img{
     width: 100px;
     height: 100px;
@@ -42,14 +61,45 @@ span{
     color: blue;
 }
 
-#zona1{
+.zona1{
     padding: 25px;
     text-align: right;
 }
 
+.boton_susperior{
+    background-color: #fff;
+    color: gray;
+    border: none;
+    margin-right: 10px; 
+    border-radius: 15px;
+}
+
+.idiomas a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    padding: 13px;
+}
+
+.idiomas{
+    width: 185px;
+    display: none;
+}
+
+
+
+.despliege:hover .idiomas{
+    display: block;
+}
+
+.zona-1{
+    margin-top: 120px;
+}
+
 #zona1_1 {
-    padding: 50px;
+    padding: 15px;
     text-align: center;
+    border-style: groove;
 }
 
 .boton_1{
@@ -73,21 +123,86 @@ span{
 }
 
 .boton_3{
-    background-color: #fff;   
-    box-shadow: 5px 5px 5px #8888;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px#8888;
     border: none;
     padding: 10px;
-    color: rgb(94, 94, 255);
-    margin-right: 10px; 
-    border-radius: 15px; 
+    color: blue;
+    margin-right: 10px;
+    border-radius: 15px;
 }
 
-.boton_1_1{
+.boton_1_1_1{
     background-color: #fff;
     color: grey;
     border: none;
     margin-right: 10px;
-
+    background-image: url(Imagenes/Estadosunidos.svg);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_2{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Francia.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_3{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Alemania.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_4{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Italia.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_5{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Portugal.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_6{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Catalunia.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_7{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Rusia.png);
+    height: 150px;
+    width: 150px;
+}
+.boton_1_1_8{
+    background-color: #fff;
+    color: grey;
+    border: none;
+    margin-right: 10px;
+    background-image: url(Imagenes/Suecia.png);
+    height: 150px;
+    width: 150px;
 }
 
 .boton_1:hover{
@@ -98,10 +213,40 @@ span{
     background-color: rgb(206, 206, 255);
 }
 
+.boton_3:hover{
+    background-color: #e6e6e6;
+}
+
+.boton_1_1_1:hover{
+    background-color: #fff;
+}
+.boton_1_1_2:hover{
+    background-color: #fff;
+}
+.boton_1_1_3:hover{
+    background-color: #fff;
+}
+.boton_1_1_4:hover{
+    background-color: #fff;
+}
+.boton_1_1_5:hover{
+    background-color: #fff;
+}
+.boton_1_1_6:hover{
+    background-color: #fff;
+}
+.boton_1_1_7:hover{
+    background-color: #fff;
+}
+.boton_1_1_8:hover{
+    background-color: #fff;
+}
+
 .zona2{
     padding: 50px;
     text-align: left;
 }
+
 
 .zona3{
     padding: 50px;
@@ -115,15 +260,34 @@ span{
 
 .zona5{
     padding: 50px;
-    text-align: right;
+    text-align: center;
     background-color: rgb(181, 181, 255);
+}
 
+.imagen-boton1{
+    width: 100px;
+    height: 100px;
+    margin-right: 120px;
+}
+
+.imagen-boton2{
+    width: 100px;
+    height: 100px;
 }
 
 .zona6{
     padding: 50px;
     text-align: center;
     background-color: blue;
+}
+
+.zona6 h3{
+    color: #fff;
+    margin-right: 25px;
+}
+
+.zona6 h1{
+    color: aquamarine;
 }
 
 .zona7{
@@ -156,7 +320,6 @@ span{
     color: grey;
     background-color: greenyellow;
     display: flex;
-    flex-direction: col;
 }
 
 .pie2{
